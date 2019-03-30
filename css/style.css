@@ -1,0 +1,147 @@
+*{transition: all .3s ease-in-out;}
+body{
+  display: grid;
+  height: 100vh;
+  overflow-y: hidden;
+  grid-template-columns: minmax(20px,50px) 1fr minmax(20px,50px) ;
+  font-family: 'Din';
+  background: #fff;
+  color: #A7B5BF;
+}
+header{grid-column: 1;}
+main, footer{grid-column: 2;}
+/* ========================= HEADER / MENU ========================= */
+header label{
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-top: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  background: #9DD168;
+  color: #fff;
+
+  line-height: 32px;
+  text-align: center;
+}
+header label i.icon-sort{
+  font-size: 18px;
+  line-height: 32px;
+}
+/* Menu system */
+ul#menu::before{
+  content: '';
+  position: absolute;
+  z-index: 4;
+
+  display: block;
+  width: 3px;
+  height: 100vh;
+
+  background: #9DD168;
+}
+ul#menu{
+  position: absolute;
+  top: 0;
+  z-index: 999;
+
+  display: flex;
+  flex-direction: column;
+  width: 3px;
+  height: 100vh;
+  overflow: hidden;
+
+  background: #9DD168;
+
+  text-align: center;
+}
+ul#menu label.close-menu{margin-left: 0;line-height: 34px;}
+ul#menu li{margin: auto;}
+ul#menu a.menu-links{
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  opacity: 0;
+}
+#menu:checked ~ ul#menu{width:90vw;overflow:initial;}
+#menu:checked ~ ul#menu a.menu-links{opacity: 1}
+#menu:checked ~ ul#menu label.close-menu{margin-left:88vw;}
+/* ========================= TITLE ========================= */
+section.title{
+  margin-top: 60px;
+}
+section.title h1{
+  color: #9DD168;
+
+  font-size: 24px;
+  text-transform: uppercase;
+}
+section.title h2{
+  font-size: 18px;
+}
+/* ========================= ITEMS ========================= */
+section#coffee-list{
+  position: relative;
+
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+
+}
+section#coffee-list div.coffee{
+  position: relative;
+
+  display: block;
+  width: 260px;
+  margin: 20px auto;
+  border-radius: 10px;
+
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0,0,0,.16);
+}
+section#coffee-list div.coffee div.img{
+  display: block;
+  width: 100%;
+  height: 220px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  background-size: cover;
+}
+section#coffee-list div.coffee div.details{
+  padding: 20px;
+
+  text-align: center;
+}
+section#coffee-list div.coffee div.details h3{
+  padding-bottom: 15px;
+
+  color: #9DD168;
+
+  font-size: 20px;
+  text-transform: uppercase;
+}
+section#coffee-list div.coffee div.details p{
+  font-size: 15px;
+}
+section#coffee-list div.coffee div.details p.opening{
+  color: #303549;
+}
+section#coffee-list div.coffee a.direction{
+  display: block;
+  width: 100%;
+  height: 48px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top: 3px solid rgba(48,53,73,.1);
+
+  background: #9DD168;
+  color: #fff;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 42px;
+
+  cursor: pointer;
+}

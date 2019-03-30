@@ -1,0 +1,24 @@
+[
+  {
+    "order": "0",
+    "city": "Brussels",
+    "img": "./img/jat-cafe-porte-namur.jpg",
+    "name": "Jat Café - Rue de Namur",
+    "address": "57, Rue de Namur 1000 Brussels",
+    "days": "everyday",
+    "open": "7.30",
+    "close": "19.20",
+    "gmaps": "https://goo.gl/maps/RCwzYkKnXq52"
+  },
+  {
+    "order": "1",
+    "city": "Brussels",
+    "img": "./img/jat-cafe-porte-namur.jpg",
+    "name": "Jat Café - Jourdan",
+    "address": "57, Rue de Namur 1000 Brussels",
+    "days": "everyday",
+    "open": "7.30",
+    "close": "19.20",
+    "gmaps": "https://goo.gl/maps/RCwzYkKnXq52"
+  }
+]
