@@ -17,7 +17,7 @@ header label.open-menu, header label.close-menu{
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 
-  background: #9DD168;
+  background: #8ACE7E;
   color: #fff;
 
   line-height: 32px;
@@ -37,7 +37,7 @@ ul#menu::before{
   width: 3px;
   height: 100vh;
 
-  background: #9DD168;
+  background: linear-gradient(10deg,#3BB9B9, #8ACE7E);
 }
 ul#menu{
   position: absolute;
@@ -50,7 +50,7 @@ ul#menu{
   height: 100vh;
   overflow: hidden;
 
-  background: #9DD168;
+  background: linear-gradient(10deg,#3BB9B9, #8ACE7E);
 
   text-align: center;
 }
@@ -71,7 +71,7 @@ section.title{
   padding-top: 23px;
 }
 section.title h1{
-  color: #9DD168;
+  color: #8ACE7E;
 
   font-size: 24px;
   text-transform: uppercase;
@@ -126,7 +126,7 @@ section#coffee-list div.coffee div.details{
 section#coffee-list div.coffee div.details h3{
   padding-bottom: 15px;
 
-  color: #9DD168;
+  color: #8ACE7E;
 
   font-size: 20px;
   text-transform: uppercase;
@@ -147,7 +147,7 @@ section#coffee-list div.coffee a.direction{
   border-bottom-left-radius: 10px;
   border-top: 3px solid rgba(48,53,73,.1);
 
-  background: #9DD168;
+  background: linear-gradient(10deg,#3BB9B9, #8ACE7E);
   color: #fff;
 
   text-align: center;
