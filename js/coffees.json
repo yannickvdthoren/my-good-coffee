@@ -3,23 +3,53 @@
   [
     {
       "city": "brussels",
-      "img": "./img/jat-cafe-porte-namur.jpg",
-      "name": "Jat Café - Rue de Namur",
+      "img": "./img/brussels/creme-brussels.jpg",
+      "name": "Crème",
+      "address": "Rue de Rollebeek 30, 1000 Bruxelles",
+      "days": "everydat",
+      "open": "9.00 (10.00 SUN)",
+      "close": "18.00",
+      "gmaps": "https://goo.gl/maps/VEC98FG98ax"
+    },
+    {
+      "city": "brussels",
+      "img": "./img/brussels/fika-brussels.jpg",
+      "name": "Fika",
+      "address": "Rue de la Paix 17, 1050 Ixelles",
+      "days": "Tuesday to Sunday",
+      "open": "8.00 (9.00 SAT/SUN)",
+      "close": "18.00 (19.00 SAT/SUN)",
+      "gmaps": "https://goo.gl/maps/oe2kPVmcWYz"
+    },
+    {
+      "city": "brussels",
+      "img": "./img/brussels/hinterland-brussels.jpg",
+      "name": "Hinterland",
+      "address": "Chaussée de Charleroi 179, 1060 Saint-Gilles",
+      "days": "everyday",
+      "open": "8.00 (9.00 SAT/SUN)",
+      "close": "16.00",
+      "gmaps": "https://goo.gl/maps/mFG6LNeUEUA2"
+    },
+    {
+      "city": "brussels",
+      "img": "./img/brussels/Jat-cafe-st-gilles-brussels.jpg",
+      "name": "Jat Café - St-Gilles",
       "address": "57, Rue de Namur 1000 Brussels",
       "days": "everyday",
       "open": "7.30",
-      "close": "19.20",
+      "close": "19.00",
       "gmaps": "https://goo.gl/maps/RCwzYkKnXq52"
     },
     {
       "city": "brussels",
-      "img": "./img/jat-cafe-porte-namur.jpg",
-      "name": "Jat Café - Rue de Namur",
-      "address": "57, Rue de Namur 1000 Brussels",
+      "img": "./img/brussels/jat-cafe-janson-brussels.jpg",
+      "name": "Jat Café - Janson",
+      "address": "Chaussée de Charleroi 116, 1060 Saint-Gilles",
       "days": "everyday",
-      "open": "7.30",
-      "close": "19.20",
-      "gmaps": "https://goo.gl/maps/RCwzYkKnXq52"
+      "open": "7.30 (8.30 SAT/SUN)",
+      "close": "19.00",
+      "gmaps": "https://goo.gl/maps/wk1QiLYF6wx"
     }
   ],
   "ghent" :
