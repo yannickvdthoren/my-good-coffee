@@ -82,7 +82,7 @@
       "days": "Wed to Sun",
       "open": "Wed - Thu : 15.00 / Fri - Sat : 11.00 / Sun : 10.00",
       "close": "23.00 (00.00 Fri/Sat)",
-      "gmaps": "https://bit.ly/2I30x1Z"
+      "gmaps": "https://goo.gl/maps/go2UxHTor6k"
     },
     {
       "city": "ghent",
@@ -92,7 +92,7 @@
       "days": "Tue to Sat",
       "open": "8.30 (9.30 Sat)",
       "close": "18.00",
-      "gmaps": "https://bit.ly/2K2zIh4"
+      "gmaps": "https://goo.gl/maps/41M5BXXX6eQ2"
     },
     {
       "city": "ghent",
@@ -102,7 +102,7 @@
       "days": "everyday",
       "open": "9.00",
       "close": "18.00",
-      "gmaps": "https://bit.ly/2Un0pAW"
+      "gmaps": "https://goo.gl/maps/ygSPgBzNqgK2"
     }
   ]
 }
