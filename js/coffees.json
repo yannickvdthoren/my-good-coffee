@@ -36,9 +36,9 @@
       "img": "./img/brussels/fika-brussels.jpg",
       "name": "Fika",
       "address": "Rue de la Paix 17, 1050 Ixelles",
-      "days": "Tuesday to Sunday",
-      "open": "8.00 (9.00 SAT/SUN)",
-      "close": "18.00 (19.00 SAT/SUN)",
+      "days": "Tue to Sun",
+      "open": "8.00 (9.00 Sat/Sun)",
+      "close": "18.00 (19.00 Sat/Sun)",
       "gmaps": "https://goo.gl/maps/oe2kPVmcWYz"
     },
     {
@@ -47,7 +47,7 @@
       "name": "Hinterland",
       "address": "Chaussée de Charleroi 179, 1060 Saint-Gilles",
       "days": "everyday",
-      "open": "8.00 (9.00 SAT/SUN)",
+      "open": "8.00 (9.00 Sat/Sun)",
       "close": "16.00",
       "gmaps": "https://goo.gl/maps/DzhFyDWy38s"
     },
@@ -67,7 +67,7 @@
       "name": "Jat Café - Janson",
       "address": "Chaussée de Charleroi 116, 1060 Saint-Gilles",
       "days": "everyday",
-      "open": "7.30 (8.30 SAT/SUN)",
+      "open": "7.30 (8.30 Sat/Sun)",
       "close": "19.00",
       "gmaps": "https://goo.gl/maps/wk1QiLYF6wx"
     }
@@ -76,23 +76,33 @@
   [
     {
       "city": "ghent",
-      "img": "./img/jat-cafe-porte-namur.jpg",
-      "name": "Ghent Jat Café - Rue de Namur",
-      "address": "57, Rue de Namur 1000 Brussels",
-      "days": "everyday",
-      "open": "7.30",
-      "close": "19.20",
-      "gmaps": "https://goo.gl/maps/RCwzYkKnXq52"
+      "img": "./img/ghent/giri-ghent.jpg",
+      "name": "Giri",
+      "address": "18, Jan Breydelstraat 9000 Gent",
+      "days": "Wed to Sun",
+      "open": "Wed - Thu : 15.00 / Fri - Sat : 11.00 / Sun : 10.00",
+      "close": "23.00 (00.00 Fri/Sat)",
+      "gmaps": "https://bit.ly/2I30x1Z"
     },
     {
       "city": "ghent",
-      "img": "./img/jat-cafe-porte-namur.jpg",
-      "name": "Jat Café - Rue de Namur",
-      "address": "57, Rue de Namur 1000 Brussels",
+      "img": "./img/ghent/koffeine-ghent.jpg",
+      "name": "Koffeine",
+      "address": "6, Lange Kruisstraat 9000 Gent",
+      "days": "Tue to Sat",
+      "open": "8.30 (9.30 Sat)",
+      "close": "18.00",
+      "gmaps": "https://bit.ly/2K2zIh4"
+    },
+    {
+      "city": "ghent",
+      "img": "./img/ghent/moor-and-moor-ghent.jpg",
+      "name": "Moor & Moor",
+      "address": "7, Jakobijnenstraat 9000 Gent",
       "days": "everyday",
-      "open": "7.30",
-      "close": "19.20",
-      "gmaps": "https://goo.gl/maps/RCwzYkKnXq52"
+      "open": "9.00",
+      "close": "18.00",
+      "gmaps": "https://bit.ly/2Un0pAW"
     }
   ]
 }
