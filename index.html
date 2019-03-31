@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js"></script>
 </head>
 <body>
   <header>
@@ -15,22 +14,24 @@
     <input type="checkbox" id="menu" style="display:none;">
     <ul id="menu">
       <label for="menu" class="close-menu"><i class="icon-close"></i></label>
-      <li class="menu-items"><a href="/" class="menu-links">Home</a></li>
-      <li class="menu-items"><a href="" class="menu-links">Brussels</a></li>
-      <li class="menu-items"><a href="" class="menu-links">Ghent</a></li>
-      <li class="menu-items"><a href="" class="menu-links">Download the app</a></li>
+      <li class="menu-items"><a href="/" class="menu-link">Home</a></li>
+      <li class="menu-items"><label for="menu" class="menu-link menu-link-city">Brussels</label></li>
+      <li class="menu-items"><label for="menu" class="menu-link menu-link-city">Ghent</label></li>
+      <li class="menu-items"><a href="#download" class="menu-link" style="visibility: hidden;">Download the app</a></li>
     </ul>
   </header>
   <main>
     <section class="title">
       <h1>My Good Coffee</h1>
-      <h2 id="city">in Brussels</h2>
+      <h2 class="city-name" id="brussels">in Brussels</h2>
+      <h2 class="city-name" id="ghent">in Ghent</h2>
     </section>
     <section id="coffee-list">
     </section>
   </main>
   <footer>
     <a href="" class="around-me"><i class="icon-my_location"></i> Around me</a>
+    <script src="js/script.js"></script>
   </footer>
 </body>
 </html>

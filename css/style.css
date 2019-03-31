@@ -1,18 +1,15 @@
-*{transition: all .3s ease-in-out;}
+*{transition: all .3s ease-in-out;font-family: 'Din';}
 body{
-  display: grid;
   height: 100vh;
-  overflow-y: hidden;
-  grid-template-columns: minmax(20px,50px) 1fr minmax(20px,50px);
-  grid-template-rows: 1fr 40px;
-  font-family: 'Din';
+  overflow: hidden;
   background: #fff;
   color: #A7B5BF;
+  font-family: 'Din';
 }
-header{grid-column: 1;}
-main, footer{grid-column: 2;}
+main{height:84vh;}
 /* ========================= HEADER / MENU ========================= */
-header label{
+header{position: fixed;top:0;z-index:999;}
+header label.open-menu, header label.close-menu{
   display: block;
   width: 32px;
   height: 32px;
@@ -30,7 +27,7 @@ header label i.icon-sort{
   font-size: 18px;
   line-height: 32px;
 }
-/* Menu system */
+/* ===== Toggle Menu system ===== */
 ul#menu::before{
   content: '';
   position: absolute;
@@ -59,18 +56,21 @@ ul#menu{
 }
 ul#menu label.close-menu{margin-left: 0;line-height: 34px;}
 ul#menu li{margin: auto;}
-ul#menu a.menu-links{
+ul#menu .menu-link{
   color: #fff;
   font-size: 20px;
   letter-spacing: 2px;
   opacity: 0;
 }
 #menu:checked ~ ul#menu{width:90vw;overflow:initial;}
-#menu:checked ~ ul#menu a.menu-links{opacity: 1}
+#menu:checked ~ ul#menu .menu-link{opacity: 1}
 #menu:checked ~ ul#menu label.close-menu{margin-left:88vw;}
+/* ===== Filter title ===== */
+.city-name{display: none;}
+.city-name:target{display: block;}
 /* ========================= TITLE ========================= */
 section.title{
-  margin-top: 60px;
+  margin: 60px 20px 20px;
 }
 section.title h1{
   color: #9DD168;
@@ -85,17 +85,16 @@ section.title h2{
 section#coffee-list{
   position: relative;
 
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-
+  width: 100vw;
+  height: 88%;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
 section#coffee-list div.coffee{
-  position: relative;
+  position: absolute;
 
-  display: block;
-  width: 260px;
-  margin: 20px auto;
+  width: 85%;
+  height: 98%;
   border-radius: 10px;
 
   background: #fff;
@@ -104,14 +103,23 @@ section#coffee-list div.coffee{
 section#coffee-list div.coffee div.img{
   display: block;
   width: 100%;
-  height: 200px;
+  height: 70%;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 
   background-size: cover;
 }
 section#coffee-list div.coffee div.details{
+  position: absolute;
+  bottom: 48px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
   padding: 20px;
+
+  background: white;
 
   text-align: center;
 }
@@ -130,6 +138,8 @@ section#coffee-list div.coffee div.details p.opening{
   color: #303549;
 }
 section#coffee-list div.coffee a.direction{
+  position: absolute;
+  bottom: 0;
   display: block;
   width: 100%;
   height: 48px;
@@ -148,6 +158,7 @@ section#coffee-list div.coffee a.direction{
 }
 /* ========================= FOOTER ========================= */
 footer{
+  display: none;
   text-align: center;
 }
 footer a{

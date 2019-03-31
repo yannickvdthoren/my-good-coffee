@@ -1,13 +1,48 @@
-[
-  {
-    "order": "0",
-    "city": "Brussels",
-    "img": "./img/jat-cafe-porte-namur.jpg",
-    "name": "Jat Café - Rue de Namur",
-    "address": "57, Rue de Namur 1000 Brussels",
-    "days": "everyday",
-    "open": "7.30",
-    "close": "19.20",
-    "gmaps": "https://goo.gl/maps/RCwzYkKnXq52"
-  }
-]
+{
+  "brussels" :
+  [
+    {
+      "city": "brussels",
+      "img": "./img/jat-cafe-porte-namur.jpg",
+      "name": "Jat Café - Rue de Namur",
+      "address": "57, Rue de Namur 1000 Brussels",
+      "days": "everyday",
+      "open": "7.30",
+      "close": "19.20",
+      "gmaps": "https://goo.gl/maps/RCwzYkKnXq52"
+    },
+    {
+      "city": "brussels",
+      "img": "./img/jat-cafe-porte-namur.jpg",
+      "name": "Jat Café - Rue de Namur",
+      "address": "57, Rue de Namur 1000 Brussels",
+      "days": "everyday",
+      "open": "7.30",
+      "close": "19.20",
+      "gmaps": "https://goo.gl/maps/RCwzYkKnXq52"
+    }
+  ],
+  "ghent" :
+  [
+    {
+      "city": "ghent",
+      "img": "./img/jat-cafe-porte-namur.jpg",
+      "name": "Ghent Jat Café - Rue de Namur",
+      "address": "57, Rue de Namur 1000 Brussels",
+      "days": "everyday",
+      "open": "7.30",
+      "close": "19.20",
+      "gmaps": "https://goo.gl/maps/RCwzYkKnXq52"
+    },
+    {
+      "city": "ghent",
+      "img": "./img/jat-cafe-porte-namur.jpg",
+      "name": "Jat Café - Rue de Namur",
+      "address": "57, Rue de Namur 1000 Brussels",
+      "days": "everyday",
+      "open": "7.30",
+      "close": "19.20",
+      "gmaps": "https://goo.gl/maps/RCwzYkKnXq52"
+    }
+  ]
+}
