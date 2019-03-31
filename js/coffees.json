@@ -3,10 +3,30 @@
   [
     {
       "city": "brussels",
+      "img": "./img/brussels/cafe-capitale-midi-brussels.jpg",
+      "name": "Café Capitale - Midi",
+      "address": "Rue du Midi 45, 1000 Bruxelles",
+      "days": "everyday",
+      "open": "7.30 (9.00 SAT/SUN)",
+      "close": "20.00",
+      "gmaps": "https://goo.gl/maps/cn3rQceiShL2"
+    },
+    {
+      "city": "brussels",
+      "img": "./img/brussels/cafe-capitale-sablon-brussels.jpg",
+      "name": "Café Capitale - Sablon",
+      "address": "1000, Rue Ernest Allard 41, 1000 Bruxelles",
+      "days": "everyday",
+      "open": "8.30 (9.30 SAT/SUN)",
+      "close": "18.00",
+      "gmaps": "https://goo.gl/maps/dVb7rBvoR5v"
+    },
+    {
+      "city": "brussels",
       "img": "./img/brussels/creme-brussels.jpg",
       "name": "Crème",
       "address": "Rue de Rollebeek 30, 1000 Bruxelles",
-      "days": "everydat",
+      "days": "everyday",
       "open": "9.00 (10.00 SUN)",
       "close": "18.00",
       "gmaps": "https://goo.gl/maps/VEC98FG98ax"
