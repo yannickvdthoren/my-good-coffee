@@ -1,3 +1,4 @@
+window.scrollTo(0,1)
 // Create the view
 function ready(){
   var req = new XMLHttpRequest();
