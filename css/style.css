@@ -6,7 +6,7 @@ body{
   color: #A7B5BF;
   font-family: 'Din';
 }
-main{height:84vh;}
+main{height:calc(84vh - 45px);;}
 /* ========================= HEADER / MENU ========================= */
 header{position: fixed;top:0;z-index:999;}
 header label.open-menu, header label.close-menu{
