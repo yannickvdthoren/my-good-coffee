@@ -65,9 +65,6 @@ ul#menu .menu-link{
 #menu:checked ~ ul#menu{width:90vw;overflow:initial;}
 #menu:checked ~ ul#menu .menu-link{opacity: 1}
 #menu:checked ~ ul#menu label.close-menu{margin-left:88vw;}
-/* ===== Filter title ===== */
-.city-name{display: none;}
-.city-name:target{display: block;}
 /* ========================= TITLE ========================= */
 section.title{
   margin: 60px 20px 20px;
@@ -81,6 +78,7 @@ section.title h1{
 section.title h2{
   font-size: 18px;
 }
+.city-name{display: none;}
 /* ========================= ITEMS ========================= */
 section#coffee-list{
   position: relative;

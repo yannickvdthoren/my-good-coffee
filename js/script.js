@@ -89,17 +89,21 @@ for (var i = 0; i < citiesLink.length; i++) {
       if (citySelected == 'brussels'){
         for (var b = 0; b < brussels.length; b++){
           brussels[b].style.display = 'block';
+          document.getElementById('brussels').style.display = 'block';
         }
         for (var a = 0; a < ghent.length; a++){
           ghent[a].style.display = 'none';
+          document.getElementById('ghent').style.display = 'none';
         }
       }
       else if (citySelected == 'ghent'){
         for (var b = 0; b < brussels.length; b++){
           brussels[b].style.display = 'none';
+          document.getElementById('brussels').style.display = 'none';
         }
         for (var a = 0; a < ghent.length; a++){
           ghent[a].style.display = 'block';
+          document.getElementById('ghent').style.display = 'block';
           ghent[a].style.transform = 'translate('+ x + 'px, 0px)';
           x = x + ghent[a].offsetWidth + 20;
         }
