@@ -2,7 +2,7 @@
 function ready(){
   var req = new XMLHttpRequest();
   req.responseType = 'json';
-  req.open('GET', 'js/coffees.json?1554047704964', true);
+  req.open('GET', 'js/coffees.json', true);
   req.onload  = function() {
      var json = req.response;
      var brussels = json.brussels;
